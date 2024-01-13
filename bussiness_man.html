@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="logo/ACE RED.png">
+</head>
+<body>
+    <div class="bussiness-page">
+        <div class="header full-w flex-evenly">
+            <a class="logo" href="bussiness_man.html">ACE</a>
+            <div class="search-bar flex-between">
+                <input type="text" placeholder="Search on ACE">
+                <button class="search"><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <ul class="menu v-center">
+                <li><a href="#orders">Orders</a></li>
+                <li><a href="#stock">Stock</a></li>
+                <li><a href="#finances">Finances</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="orders m-20" id="orders">
+                <h2>Orders</h2>
+                <div class="table">
+                    <ul class="filters">
+                        <li><button>All</button></li>
+                        <li><button>Confirmed</button></li>
+                        <li><button>Pending</button></li>
+                        <li><button>Shipping</button></li>
+                        <li><button>Completed</button></li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer name</th>
+                                <th>Item</th>
+                                <th>Price</th>
+                                <th>Adress</th>
+                                <th>Date</th>
+                                <th>State</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bayoumy</td>
+                                <td>Laptop</td>
+                                <td>$1200</td>
+                                <td>Antoniades, Alexandria</td>
+                                <td>2024-01-01</td>
+                                <td class="state"><span>Confirmed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Wessa</td>
+                                <td>Phone</td>
+                                <td>$800</td>
+                                <td>Kafr Abdo, Alexandria</td>
+                                <td>2024-01-05</td>
+                                <td class="state"><span>Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Sherbiny</td>
+                                <td>Phone</td>
+                                <td>$800</td>
+                                <td>Shebin El-Kom Menoufia</td>
+                                <td>2023-06-07</td>
+                                <td class="state"><span>Shipping</span></td>
+                            </tr>
+                            <tr>
+                                <td>Ghazy</td>
+                                <td>Phone</td>
+                                <td>$800</td>
+                                <td>Kafr El-Sheikh</td>
+                                <td>2023-01-02</td>
+                                <td class="state"><span>Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Salem</td>
+                                <td>Phone</td>
+                                <td>$800</td>
+                                <td>Ibrahimia, Alexandria</td>
+                                <td>2023-11-06</td>
+                                <td class="state"><span>Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Ahmed</td>
+                                <td>Laptop</td>
+                                <td>$800</td>
+                                <td>Future City, Cairo</td>
+                                <td>2023-10-16</td>
+                                <td class="state"><span>Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mohamed</td>
+                                <td>T-Shirt</td>
+                                <td>$40</td>
+                                <td>Mansoura</td>
+                                <td>2024-01-04</td>
+                                <td class="state"><span>Confirmed</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- End Orders Section -->
+            <!-- Start Stock Section -->
+            <div class="stock m-20" id="stock">
+                <h2>Stock</h2>
+                <ul class="stock-filters">
+                    <li><button>All</button></li>
+                    <li><button>In Stock</button></li>
+                    <li><button>Out of Stock</button></li>
+                    <li><button>Low Stock</button></li>
+                </ul>
+                <div class="stock-table-div">
+                    <table id="stockTable" class="stock-table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Quantity</th>
+                                <th>Price Per Item</th>
+                                <th>Total Value</th>
+                                <th>State</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Laptop</td>
+                                <td>50</td>
+                                <td>$1200</td>
+                                <td>$60000</td>
+                                <td class="state"><span class="in-stock">In Stock</span></td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>15</td>
+                                <td>$800</td>
+                                <td>$12000</td>
+                                <td class="state"><span class="low-stock">Low Stock</span></td>
+                            </tr>
+                            <tr>
+                                <td>Tablet</td>
+                                <td>0</td>
+                                <td>$500</td>
+                                <td>$0</td>
+                                <td class="state"><span class="out-of-stock">Out of Stock</span></td>
+                            </tr>
+                            <tr>
+                                <td>Smartwatch</td>
+                                <td>103</td>
+                                <td>$300</td>
+                                <td>$30900</td>
+                                <td class="state"><span class="in-stock">In Stock</span></td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>
+            <!-- End Stock Section -->
+            <!-- Start Finance Section -->
+            <!-- Start Finances Section -->
+            <div class="finances m-20" id="finances">
+                <h2>Finances</h2>
+                <div class="box">
+                    <div class="finance-summary">
+                        <h3>Total Income</h3>
+                        <p id="totalIncome">$0</p>
+                    </div>
+
+                    <div class="finance-summary">
+                        <h3>Total Stock Value</h3>
+                        <p id="totalStockValue">$0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Finances Section -->
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="logo/ACE RED.png">
+</head>
+<body>
+    <div class="cust-page">
+        <div class="header full-w flex-evenly">
+            <a class="logo" href="customer.html">ACE</a>
+            <button class="categories v-center" id="categories-btn">
+                <i class="fa-solid fa-bars"></i>
+                <span>Categories</span>
+            </button>
+            <div class="search-bar flex-between">
+                <input type="text" placeholder="Search on ACE">
+                <button class="search"><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <div class="extras flex-between">
+                <button><i class="fa-regular fa-heart"></i></button>
+                <button id="cartButton"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+
+        <!-- Start Welcoming part -->
+        <div class="content">
+            <div class="welcome-cust t-center">
+                <h1>Welcome to ACE!</h1>
+                <div class="container">
+                    <a class="box" href="#clothes">
+                        <img class="circle" src="images/clothes_categ.png" alt="Clothes.png">
+                        <p>Clothes</p>
+                    </a>
+                    <a class="box" href="#jewelry"> 
+                        <img class="circle" src="images/jewerly.jpg" alt="jewelry.jpg">
+                        <p>Jewelry</p>
+                    </a>
+                    <a class="box" href="#smart-devices">
+                        <img class="circle" src="images/smart_devices_category.png" alt="smart devices.png">
+                        <p>Smart Devices</p>
+                    </a>
+                    <a class="box" href="#electronics">
+                        <img class="circle" src="images/electronics_categ.jpg" alt="electronics.jpg">
+                        <p>Electronics</p>
+                    </a>
+                    <a class="box" href="#furniture">
+                        <img class="circle" src="images/furniture_categ.png" alt="funiture.png">
+                        <p>Furniture</p>
+                    </a>
+                    <a class="box" href="#health">
+                        <img class="circle" src="images/health_categ.png" alt="health.png">
+                        <p>Health</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End Welcoming part -->
+        <!-- Start Side Bar -->
+        <div class="sidebar" id="sidebar">
+            <div class="content">
+                <div class="welcome-cust t-center">
+                    <div class="container">
+                        <a class="box" href="#clothes">
+                            <img class="circle" src="images/clothes_categ.png" alt="Clothes.png">
+                            <p>Clothes</p>
+                        </a>
+                        <a class="box" href="#jewelry"> 
+                            <img class="circle" src="images/jewerly.jpg" alt="jewelry.jpg">
+                            <p>Jewelry</p>
+                        </a>
+                        <a class="box" href="#smart-devices">
+                            <img class="circle" src="images/smart_devices_category.png" alt="smart devices.png">
+                            <p>Smart Devices</p>
+                        </a>
+                        <a class="box" href="#electronics">
+                            <img class="circle" src="images/electronics_categ.jpg" alt="electronics.jpg">
+                            <p>Electronics</p>
+                        </a>
+                        <a class="box" href="#furniture">
+                            <img class="circle" src="images/furniture_categ.png" alt="funiture.png">
+                            <p>Furniture</p>
+                        </a>
+                        <a class="box" href="#health">
+                            <img class="circle" src="images/health_categ.png" alt="health.png">
+                            <p>Health</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Side Bar -->
+        <!-- Start Today Offers -->
+        <div class="today-offers">
+            <h1 class="section-heading">Today’s offers</h1>
+            <div class="container">
+                <img src="images/today_offers_1.jpg" alt="offer.jpg">
+                <div class="arrows">
+                    <i class="fa-solid fa-chevron-left left-arrow hide-mob"></i>
+                    <i class="fa-solid fa-chevron-right right-arrow hide-mob"></i>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Today Offers -->
+        <!-- Start Recommendations -->
+        <div class="recommendation">
+            <h1 class="section-heading">Recommended for you</h1>
+            <div class="container">
+                <img src="images/recommend_1.jpg" alt="Recommendation.jpg">
+                <div class="arrows">
+                    <i class="fa-solid fa-chevron-left left-arrow hide-mob"></i>
+                    <i class="fa-solid fa-chevron-right right-arrow hide-mob"></i>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Recommendations -->
+        <!-- Start Clothes Section -->
+        <h1 class="section-heading">Clothes</h1>
+        <div class="clothes-section m-20" id="clothes">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes1_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes1_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Unstoppable</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes2_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes2_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">DawnDream</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes3_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes3_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Graphic</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes4_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes4_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Midnight Maven</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes5_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes5_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Infinity Inlay</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes6_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes6_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">VelvetVerse</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/clothes7_front.png" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/clothes7_back.png" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Velvet</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/clothes/c2_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/clothes/c2_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Pet Hoodie</p>
+                <span class="describtion">Premuim quality hoodie</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$12</span>
+                        <span class="new-price">$8</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Clothes Section -->
+        <h1 class="section-heading">Jewelry</h1>
+        <!-- Start Jewelry Section -->
+        <div class="jewel-section m-20" id="jewelry">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/1_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Copper Pendant</p>
+                <span class="describtion">Premuim quality Pendant</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/2_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/2_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Crystal Necklace</p>
+                <span class="describtion">Premuim quality Necklace</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/3_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/3_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Rough Necklace</p>
+                <span class="describtion">Premuim quality Necklace</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/4_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/4_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Gem Stone</p>
+                <span class="describtion">Premuim quality Gem</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/5_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/5_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Pure Copper Bangle</p>
+                <span class="describtion">Premuim quality Bangle</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/6_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/6_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Fire Opal Necklace</p>
+                <span class="describtion">Premuim quality Necklace</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/jewellery/7_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/jewellery/7_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Pure Copper Ring</p>
+                <span class="describtion">Premuim quality ring</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$7</span>
+                        <span class="new-price">$4</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Jewelry Section -->
+        <h1 class="section-heading">Smart Devices</h1>
+        <!-- Start Smart Devices Section -->
+        <div class="smart-dev m-20" id="smart-devices">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s1_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Fridge with Freezer</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$215</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s3_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s3_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Automatic Washing Machine</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$225</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s4_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s4_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Automatic Washing Machine</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$450</span>
+                        <span class="new-price">$260</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s5_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s5_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Black Dishwasher</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$315</span>
+                        <span class="new-price">$260</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s6_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s6_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">White Dishwasher</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$350</span>
+                        <span class="new-price">$300</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s7_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s7_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Smart Air Frier</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$240</span>
+                        <span class="new-price">$200</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/smartdev/s8_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/smartdev/s8_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Plastic Air Frier</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$170</span>
+                        <span class="new-price">$150</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Smart Devices Section -->
+        <h1 class="section-heading">Electronics</h1>
+        <!-- Start Electronics Section -->
+        <div class="electronics m-20" id="electronics">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e1_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Touch Screen</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$2000</span>
+                        <span class="new-price">$1250</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e2_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e2_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Free Style Projector</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$50</span>
+                        <span class="new-price">$45</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e3_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e3_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Green Code Lamp</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$53</span>
+                        <span class="new-price">$47</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e4_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e4_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Circuit Mess Chatter</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$150</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e5_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e5_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Pwnagotghi</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$215</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e6_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e6_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">MSI Gaming Laptop</p>
+                <span class="describtion">Premuim quality laptop</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$1000</span>
+                        <span class="new-price">890</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e7_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e7_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Dell Laptop</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$700</span>
+                        <span class="new-price">$650</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/electro/e8_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/electro/e8_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Lenovo Gaming Laptop</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$5000</span>
+                        <span class="new-price">$3999</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Electronics Section -->
+        <h1 class="section-heading">Furniture</h1>
+        <!-- Start Furniture Section -->
+        <div class="furniture m-20" id="funiture">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f1_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Economic Chair</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$370</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f2_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f2_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Soft Bed</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$400</span>
+                        <span class="new-price">$300</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f3_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f3_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Chair</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$200</span>
+                        <span class="new-price">$170</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f4_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f4_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Cat Litter Box</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$110</span>
+                        <span class="new-price">$90</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f5_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f5_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Soft Table</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$80</span>
+                        <span class="new-price">$60</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f6_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f6_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Modern Furniture</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$500</span>
+                        <span class="new-price">$470</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f7_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f7_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">TClub Chair</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$25</span>
+                        <span class="new-price">$20</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/furn/f1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/furn/f1_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Wing Chair</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$50</span>
+                        <span class="new-price">$40</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Furniture Section -->
+        <h1 class="section-heading">Health</h1>
+        <!-- Start Health Secton -->
+        <div class="health m-20" id="health">
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h1_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h1_backk.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Roller Wheels Kit</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$40</span>
+                        <span class="new-price">$30</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h2_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h2_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Gym Pullup Bar</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$40</span>
+                        <span class="new-price">$25</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h3_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h3_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Forerem Wrest Roller</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$25</span>
+                        <span class="new-price">$19</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h4_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h4_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Adjustable Weight Bench</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$200</span>
+                        <span class="new-price">$165</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h5_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h5_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Optimum Nitration</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$120</span>
+                        <span class="new-price">$99</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h6_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h6_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Creatine Monohydrate</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$30</span>
+                        <span class="new-price">$22</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h7_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h7_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">On My Whey Single Scoop</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$25</span>
+                        <span class="new-price">$19</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-box">
+                <div class="image p-relative">
+                    <img src="images/health/h8_front.jpg" alt="">
+                    <div class="back-image">
+                        <img src="images/health/h8_back.jpg" alt="">
+                    </div>
+                </div>
+                <p class="item-name">Electric Protien Shaker</p>
+                <span class="describtion">Premuim quality device</span>
+                <div class="footer flex-between">
+                    <div class="price">
+                        <span class="deleted">$35</span>
+                        <span class="new-price">$24</span>
+                    </div>
+                    <div class="add">
+                        <button class="add-to-fav flex-between">
+                            <span>Add to Favourites</span>
+                            <i class="fa-solid fa-heart-circle-plus"></i>
+                        </button>
+                        <button class="add-to-cart flex-between">
+                            <span>Add to cart</span>
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <h3>Reviews</h3>
+                    <ul class="comment-list">
+                    </ul>
+                    <form class="comment-form">
+                        <textarea placeholder="Write a comment"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Health Secton -->
+    </div>
+    <div class="modal" id="favoritesModal">
+        <div class="modal-content">
+            <!-- Favourite items will be displayed here -->
+        </div>
+    </div>
+    <div class="modal2" id="cartModal">
+        <div class="modal-content2">
+            <!-- Cart items will be displayed here -->
+        </div>
+    </div>
+    
+    <script src="JS/main.js"></script>
+</body>
+</html>
